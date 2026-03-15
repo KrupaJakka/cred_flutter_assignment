@@ -20,9 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     // <=2 cards API
-    loadData("https://api.mocklets.com/p26/mock1");
+    // loadData("https://api.mocklets.com/p26/mock1");
     //// >2 cards API
-    // loadData("https://api.mocklets.com/p26/mock2");
+    loadData("https://api.mocklets.com/p26/mock2");
 
     Timer.periodic(const Duration(seconds: 3), (timer) {
       setState(() {
